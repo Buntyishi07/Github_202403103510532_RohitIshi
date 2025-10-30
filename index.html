@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohit Ishi — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN (no account needed) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="Rohit Ishi — Cloud Computing student at AMTICS, Uka Tarsadia University. Portfolio of projects, skills and contact." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Rohit Ishi</a>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="btn small" href="assets/Rohit_Ishi_Resume.pdf" download id="resumeBtn">Download Resume</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="open navigation" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME / ABOUT -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Rohit Ishi</h1>
+          <p class="tagline">Cloud Computing Student • Aspiring Cloud Engineer</p>
+          <p class="bio">I'm a Cloud Computing student at AMTICS, Uka Tarsadia University. I love creating full-stack web apps and tools that simplify real-world workflows. I'm currently learning advanced web technologies, cloud services, and DevOps practices.</p>
+
+          <div class="cta-row">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn outline" href="mailto:rohitishi07@gmail.com">Email Me</a>
+          </div>
+
+          <!-- Social icons only (clickable) -->
+          <div class="social-row">
+            <a target="_blank" rel="noopener" href="https://github.com/Buntyishi07" title="GitHub"><i class="fab fa-github"></i></a>
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/rohit-ishi-5b097a324" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:rohitishi07@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <!-- Replace with your real photo -->
+          <img src="assets/Rohit pfp.png" alt="Rohit Ishi - profile photo">
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <p class="section-sub">Languages & Technologies I work with</p>
+
+        <!-- language icons row -->
+        <div class="icons-row">
+          <i class="fab fa-html5" title="HTML5"></i>
+          <i class="fab fa-css3-alt" title="CSS3"></i>
+          <i class="fab fa-js" title="JavaScript"></i>
+          <i class="fab fa-php" title="PHP"></i>
+          <i class="fa-solid fa-database" title="SQL / Databases"></i>
+          <i class="fab fa-python" title="Python"></i>
+          <i class="fa-solid fa-code" title="C Language"></i>
+          <i class="fab fa-git-alt" title="Git"></i>
+          <i class="fab fa-github" title="GitHub"></i>
+          <i class="fa-solid fa-cloud" title="Cloud Computing"></i>
+        </div>
+
+        <div class="skills-grid">
+          <!-- progress style skills -->
+          <div class="skill">
+            <div class="skill-head"><i class="fab fa-html5"></i><span>HTML</span></div>
+            <div class="progress"><div class="bar" style="width:90%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+            <div class="progress"><div class="bar" style="width:85%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            <div class="progress"><div class="bar" style="width:80%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><i class="fab fa-php"></i><span>PHP</span></div>
+            <div class="progress"><div class="bar" style="width:75%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><i class="fa-solid fa-database"></i><span>SQL / Databases</span></div>
+            <div class="progress"><div class="bar" style="width:70%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><i class="fab fa-python"></i><span>Python</span></div>
+            <div class="progress"><div class="bar" style="width:70%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><i class="fa-solid fa-code"></i><span>C</span></div>
+            <div class="progress"><div class="bar" style="width:60%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><i class="fab fa-git-alt"></i><span>Git & GitHub</span></div>
+            <div class="progress"><div class="bar" style="width:80%"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><i class="fa-solid fa-cloud"></i><span>Cloud Computing</span></div>
+            <div class="progress"><div class="bar" style="width:65%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS PREVIEW -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Selected Projects</h2>
+        <p class="section-sub">A few projects I built — more on the projects page</p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-icon"><i class="fa-solid fa-scissors"></i></div>
+            <h3>Salon Management Website</h3>
+            <p>A responsive salon booking & admin site built with HTML, CSS, PHP & MySQL.</p>
+            <div class="card-actions">
+              <a class="btn small" href="projects.html#salon">Projects Page</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Finance Tracker</h3>
+            <p>Personal finance manager to track expenses and visualize monthly spending.</p>
+            <div class="card-actions">
+              <a class="btn small" href="projects.html#finance">Projects Page</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-icon"><i class="fa-solid fa-cloud-sun-rain"></i></div>
+            <h3>Weather App</h3>
+            <p>Weather forecasting app using API for real-time city weather data.</p>
+            <div class="card-actions">
+              <a class="btn small" href="projects.html#weather">Projects Page</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="center">
+          <a class="btn" href="projects.html">See all projects →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="section-sub">Reach out to me via social platforms</p>
+          <div class="contact-icons">
+            <a href="https://github.com/dashboard" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rohit-ishi-5b097a324" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:rohitishi07@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Rohit Ishi</strong>
+        <p>Cloud Computing Student — AMTICS, Uka Tarsadia University</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/Buntyishi07" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rohit-ishi-5b097a324" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:rohitishi07@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <small>&copy; <span id="year"></span> Rohit Ishi — Built with HTML, CSS & JS</small>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
